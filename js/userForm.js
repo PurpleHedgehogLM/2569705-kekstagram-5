@@ -1,5 +1,5 @@
 const MAX_HASHTAGS_COUNT = 5;
-const VALID_SYMBOLS = /^#[a-zа-яё0-9]{1, 19}$/i;
+const VALID_SYMBOLS = /^#[a-zа-яё0-9]{1,19}$/i;
 const ErrorText = {
   INVALID_COUNT: `Максимум ${MAX_HASHTAGS_COUNT} хештегов`,
   NOT_UNIQUE: 'Хештеги должны быть уникальными',
